@@ -1,19 +1,17 @@
 {
   "name": "sitemap-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple tool to generate a sitemap.",
   "bin": {
     "sitemap-cli": "./index.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Vittorio Zaccaria",
   "license": "BSD",
   "dependencies": {
     "docopt": "~0.4.1",
+    "glob": "~4.0.6",
     "sitemap": "~0.7.4",
-    "glob": "~4.0.6"
+    "xyz": "^0.5.0"
   }
 }
